@@ -1,0 +1,5 @@
+{
+  "ConnectionStrings": {
+    "MediatRDb": "Server=.\\SQLEXPRESS;Database=projeto-evolucional;Trusted_Connection=True;"
+  }
+}
