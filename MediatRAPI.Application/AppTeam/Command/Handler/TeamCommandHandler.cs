@@ -23,7 +23,7 @@ namespace MediatRAPI.Application.AppTeam.Handler
         {
             await _teamRepository.Create(_mapper.Map<TeamEntity>(request));
 
-            return await Task.FromResult("Cliente registrado com sucesso");
+            return await Task.FromResult("Time registrado com sucesso");
         }
 
         public async Task<string> Handle(TeamUpdateCommand request, CancellationToken cancellationToken)
@@ -36,7 +36,7 @@ namespace MediatRAPI.Application.AppTeam.Handler
 
             _teamRepository.SaveChanges();
 
-            return await Task.FromResult("Cliente atualizado com sucesso");
+            return await Task.FromResult("Time atualizado com sucesso");
         }
 
         public async Task<string> Handle(TeamDeleteCommand request, CancellationToken cancellationToken)
@@ -45,7 +45,7 @@ namespace MediatRAPI.Application.AppTeam.Handler
 
             _teamRepository.SaveChanges();
 
-            return await Task.FromResult("Cliente deletado com sucesso");
+            return await Task.FromResult("Time deletado com sucesso");
         }
     }
 }

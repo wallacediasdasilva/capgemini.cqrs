@@ -10,7 +10,7 @@ namespace MediatRAPI.Application.AppTeam.Query.Handler
     public class TeamQueryHandler : IRequestHandler<TeamGetCommand, TeamGetResponse>
     {
         private readonly ITeamRepository _teamRepository;
-        public TeamQueryHandler(IMediator mediator, ITeamRepository teamRepository)
+        public TeamQueryHandler(ITeamRepository teamRepository)
         {
             _teamRepository = teamRepository;
         }
