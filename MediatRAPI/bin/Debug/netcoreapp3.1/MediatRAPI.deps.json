@@ -2462,6 +2462,7 @@
       "MediatRAPI.CrossCutting/1.0.0": {
         "dependencies": {
           "AutoMapper.Extensions.Microsoft.DependencyInjection": "7.0.0",
+          "MediatRAPI.Application": "1.0.0",
           "MediatRAPI.Persistence": "1.0.0",
           "Microsoft.Extensions.Configuration": "3.1.4",
           "Microsoft.Extensions.Configuration.Abstractions": "3.1.4",

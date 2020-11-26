@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\dias_\\Desktop\\MediatRAPI\\MediatRAPI.CrossCutting.Support\\MediatRAPI.CrossCutting.Support.csproj": {}
+    "C:\\Users\\wallsilv\\Documents\\Estudo\\Accelerate\\capgemini.cqrs\\MediatRAPI.CrossCutting.Support\\MediatRAPI.CrossCutting.Support.csproj": {}
   },
   "projects": {
-    "C:\\Users\\dias_\\Desktop\\MediatRAPI\\MediatRAPI.CrossCutting.Support\\MediatRAPI.CrossCutting.Support.csproj": {
+    "C:\\Users\\wallsilv\\Documents\\Estudo\\Accelerate\\capgemini.cqrs\\MediatRAPI.CrossCutting.Support\\MediatRAPI.CrossCutting.Support.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dias_\\Desktop\\MediatRAPI\\MediatRAPI.CrossCutting.Support\\MediatRAPI.CrossCutting.Support.csproj",
+        "projectUniqueName": "C:\\Users\\wallsilv\\Documents\\Estudo\\Accelerate\\capgemini.cqrs\\MediatRAPI.CrossCutting.Support\\MediatRAPI.CrossCutting.Support.csproj",
         "projectName": "MediatRAPI.CrossCutting.Support",
-        "projectPath": "C:\\Users\\dias_\\Desktop\\MediatRAPI\\MediatRAPI.CrossCutting.Support\\MediatRAPI.CrossCutting.Support.csproj",
-        "packagesPath": "C:\\Users\\dias_\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dias_\\Desktop\\MediatRAPI\\MediatRAPI.CrossCutting.Support\\obj\\",
+        "projectPath": "C:\\Users\\wallsilv\\Documents\\Estudo\\Accelerate\\capgemini.cqrs\\MediatRAPI.CrossCutting.Support\\MediatRAPI.CrossCutting.Support.csproj",
+        "packagesPath": "C:\\Users\\wallsilv\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\wallsilv\\Documents\\Estudo\\Accelerate\\capgemini.cqrs\\MediatRAPI.CrossCutting.Support\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\dias_\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\wallsilv\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -26,11 +26,11 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://tfs-agora.corpt.bradesco.com.br/tfs/TeamDDSProjectCollection/_projects": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -42,7 +42,6 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "Bogus": {
               "target": "Package",
@@ -83,26 +82,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[3.1.8, 3.1.8]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[3.1.0, 3.1.0]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[3.1.0, 3.1.0]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files (x86)\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
         }
       }
     }

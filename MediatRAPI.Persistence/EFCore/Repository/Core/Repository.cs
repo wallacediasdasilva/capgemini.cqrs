@@ -19,7 +19,7 @@ namespace MediatRAPI.Persistence.EFCore.Repository.Core
             SaveChanges();
         }
 
-        public async Task Delete(int id, TEntity entity)
+        public async Task Delete(TEntity entity)
         {
             _mediatRContext.Remove(entity);
             
@@ -31,7 +31,7 @@ namespace MediatRAPI.Persistence.EFCore.Repository.Core
             return await Task.FromResult(_mediatRContext.Set<TEntity>().Find(id));
         }
 
-        public async Task Update(int id, TEntity entity)
+        public async Task Update(TEntity entity)
         {
             _mediatRContext.Update(entity);
 

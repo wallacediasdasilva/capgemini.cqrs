@@ -1,7 +1,6 @@
 ﻿using MediatR;
 using MediatRAPI.Application.AppTeam.Command;
 using MediatRAPI.Application.AppTeam.Query.Request;
-using MediatRAPI.Domain.Interfaces.TeamRepository;
 using Microsoft.AspNetCore.Mvc;
 using System.Threading.Tasks;
 
@@ -12,11 +11,9 @@ namespace MediatRAPI.Controllers
     public class TeamController : ControllerBase
     {
         private readonly IMediator _mediator;
-        private readonly ITeamRepository _teamRepository;
 
-        public TeamController(ITeamRepository teamRepository, IMediator mediator)
+        public TeamController(IMediator mediator)
         {
-            _teamRepository = teamRepository;
             _mediator = mediator;
         }
 

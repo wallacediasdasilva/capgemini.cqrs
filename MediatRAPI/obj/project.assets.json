@@ -2910,6 +2910,7 @@
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
           "AutoMapper.Extensions.Microsoft.DependencyInjection": "7.0.0",
+          "MediatRAPI.Application": "1.0.0",
           "MediatRAPI.Persistence": "1.0.0",
           "Microsoft.Extensions.Configuration": "3.1.4",
           "Microsoft.Extensions.Configuration.Abstractions": "3.1.4",
@@ -9266,23 +9267,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\dias_\\.nuget\\packages\\": {},
+    "C:\\Users\\wallsilv\\.nuget\\packages\\": {},
     "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\dias_\\Desktop\\MediatRAPI\\MediatRAPI\\MediatRAPI.csproj",
+      "projectUniqueName": "C:\\Users\\wallsilv\\Documents\\Estudo\\Accelerate\\capgemini.cqrs\\MediatRAPI\\MediatRAPI.csproj",
       "projectName": "MediatRAPI",
-      "projectPath": "C:\\Users\\dias_\\Desktop\\MediatRAPI\\MediatRAPI\\MediatRAPI.csproj",
-      "packagesPath": "C:\\Users\\dias_\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\dias_\\Desktop\\MediatRAPI\\MediatRAPI\\obj\\",
+      "projectPath": "C:\\Users\\wallsilv\\Documents\\Estudo\\Accelerate\\capgemini.cqrs\\MediatRAPI\\MediatRAPI.csproj",
+      "packagesPath": "C:\\Users\\wallsilv\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\wallsilv\\Documents\\Estudo\\Accelerate\\capgemini.cqrs\\MediatRAPI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\dias_\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\wallsilv\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -9291,20 +9292,20 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {},
+        "https://tfs-agora.corpt.bradesco.com.br/tfs/TeamDDSProjectCollection/_projects": {}
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\dias_\\Desktop\\MediatRAPI\\MediatRAPI.Application\\MediatRAPI.Application.csproj": {
-              "projectPath": "C:\\Users\\dias_\\Desktop\\MediatRAPI\\MediatRAPI.Application\\MediatRAPI.Application.csproj"
+            "C:\\Users\\wallsilv\\Documents\\Estudo\\Accelerate\\capgemini.cqrs\\MediatRAPI.Application\\MediatRAPI.Application.csproj": {
+              "projectPath": "C:\\Users\\wallsilv\\Documents\\Estudo\\Accelerate\\capgemini.cqrs\\MediatRAPI.Application\\MediatRAPI.Application.csproj"
             },
-            "C:\\Users\\dias_\\Desktop\\MediatRAPI\\MediatRAPI.CrossCutting\\MediatRAPI.CrossCutting.csproj": {
-              "projectPath": "C:\\Users\\dias_\\Desktop\\MediatRAPI\\MediatRAPI.CrossCutting\\MediatRAPI.CrossCutting.csproj"
+            "C:\\Users\\wallsilv\\Documents\\Estudo\\Accelerate\\capgemini.cqrs\\MediatRAPI.CrossCutting\\MediatRAPI.CrossCutting.csproj": {
+              "projectPath": "C:\\Users\\wallsilv\\Documents\\Estudo\\Accelerate\\capgemini.cqrs\\MediatRAPI.CrossCutting\\MediatRAPI.CrossCutting.csproj"
             },
-            "C:\\Users\\dias_\\Desktop\\MediatRAPI\\MediatRAPI.Persistence\\MediatRAPI.Persistence.csproj": {
-              "projectPath": "C:\\Users\\dias_\\Desktop\\MediatRAPI\\MediatRAPI.Persistence\\MediatRAPI.Persistence.csproj"
+            "C:\\Users\\wallsilv\\Documents\\Estudo\\Accelerate\\capgemini.cqrs\\MediatRAPI.Persistence\\MediatRAPI.Persistence.csproj": {
+              "projectPath": "C:\\Users\\wallsilv\\Documents\\Estudo\\Accelerate\\capgemini.cqrs\\MediatRAPI.Persistence\\MediatRAPI.Persistence.csproj"
             }
           }
         }
@@ -9317,7 +9318,6 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
-        "targetAlias": "netcoreapp3.1",
         "dependencies": {
           "MediatR": {
             "target": "Package",
@@ -9374,24 +9374,6 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[3.1.8, 3.1.8]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Host.win-x86",
-            "version": "[3.1.9, 3.1.9]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Ref",
-            "version": "[3.1.0, 3.1.0]"
-          },
-          {
-            "name": "Microsoft.WindowsDesktop.App.Ref",
-            "version": "[3.1.0, 3.1.0]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -9400,7 +9382,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files (x86)\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
       }
     }
   },
