@@ -20,7 +20,7 @@ namespace MediatRAPI.Controllers
         [HttpPost]
         public async Task<IActionResult> Post([FromBody] TeamCreateCommand command)
         {
-            return Ok(await _mediator.Send(command));
+            return Created(string.Empty, await _mediator.Send(command));
         }
 
         [HttpPut("{id}")]
