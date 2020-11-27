@@ -1,17 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
 
 namespace MediatRAPI.CrossCutting.Support.Util
 {
     public class RuleValidator
     {
-        private readonly List<string> _errorMessages;
-
-        private RuleValidator()
-        {
-            _errorMessages = new List<string>();
-        }
+        private string _errorMessages;
 
         public static RuleValidator New()
         {
@@ -20,25 +14,15 @@ namespace MediatRAPI.CrossCutting.Support.Util
 
         public RuleValidator When(bool hasError, string errorMessage)
         {
-            if(hasError)
-                _errorMessages.Add(errorMessage);
-
-            return this;
-        }
-
-        public RuleValidator CpfIsValid(string cpf, string errorMessage)
-        {
-            var isvalid = ValidateCpf.IsValid(cpf);
-
-            if (!isvalid)
-                _errorMessages.Add(errorMessage);
+            if (hasError)
+                _errorMessages += errorMessage + "; ";
 
             return this;
         }
 
         public void ExceptionIfExist()
         {
-            if (_errorMessages.Any())
+            if (_errorMessages != null)
                 throw new ExceptionDomain(_errorMessages);
         }
     }
@@ -47,9 +31,9 @@ namespace MediatRAPI.CrossCutting.Support.Util
     {
         public List<string> ErrorMessage { get; set; }
 
-        public ExceptionDomain(List<string> errorMessages)
+        public ExceptionDomain(string message) : base(message)
         {
-            ErrorMessage = errorMessages;
         }
+
     }
 }
